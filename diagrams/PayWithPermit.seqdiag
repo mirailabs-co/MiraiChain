@@ -1,0 +1,16 @@
+Title: Withdraw from MiraiChain
+participant User
+participant Relayer
+participant MRC20
+participant MiraiScanner
+participant MiraiBank
+User->Relayer: pay(token, payer, \npayee, refId, amount, r, s, v)
+Relayer->Relayer: validate: quota/address, \nquota/token, check refId
+Relayer->User: OK, txid
+Relayer->MRC20: payWithPermit(payee, payer, \nrefId, amount, r, s, v)
+MRC20->Relayer: OK
+MRC20->MiraiScanner: onPay{payer, \npayee, refId, amount}
+MiraiScanner->MiraiBank: onPayTx{txid, payer, \npayee, refId, amount}
+MiraiBank->MiraiScanner: OK
+MiraiBank->Partner: onPayWebhook{txid, \npayer, payee, refId, amount}
+Partner->MiraiBank: OK

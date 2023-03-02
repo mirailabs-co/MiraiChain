@@ -1,0 +1,12 @@
+Title: Withdraw from MiraiChain
+participant User
+participant Relayer
+participant MRC20
+participant MiraiChainValidator
+User->Relayer: transfer(token, to, \namount, r, s, v)
+Relayer->Relayer: validate: quota/address, \nquota/token
+Relayer->User: OK, txid
+Relayer->MRC20: transferWithPermit(to, amount, \nr, s, v)\n(Pay PGX for fee)
+MRC20->Relayer: OK
+MRC20-->MiraiChainValidator: Collect PGX by fee \n(type = 0, not burn)
+MiraiChainValidator-->Relayer: PGX

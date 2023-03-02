@@ -1,0 +1,24 @@
+Title: Deposit to MiraiChain By MiraiChainRouter
+participant User
+participant DepositAddress
+participant MiraiScanner
+participant MiraiBank
+participant MPCPool
+participant MPCNode
+participant MPCBroadcaster
+participant MRC20
+User->DepositAddress: transfer(DepositAddress, amount)
+DepositAddress->User: OK
+DepositAddress->MiraiScanner: onTransfer{from, to,\namount}
+MiraiScanner->MPCPool: addDepositIndirectlyTx{chainId, txid, amount}
+MPCPool->MiraiScanner: OK
+MPCPool->MiraiBank: onDepositIndirectlyTx{chainId, txid, amount}
+MiraiBank->MPCPool: updateDepositIndirectlyTx{chainId, txid, userData,\nreceiver, amount, fee}
+MPCPool->MiraiBank: OK
+MPCPool->MPCNode: onDepositIndirectlyTx{chainId, txid, userData,\nreceiver, amount, fee}
+MPCNode->MPCNode: verifyDepositIndirectlyTx(chainId, txid, userData,\nreceiver, amount, fee)
+MPCNode->MPCPool: addSignature(chainId, txid, userData,\nreceiver, amount, fee, signature)
+MPCPool->MPCNode: OK
+MPCPool->MPCBroadcaster: onSignedTx{chainId, txid, userData,\nreceiver, amount, fee, signature}
+MPCBroadcaster->MRC20: mint(chainId, txid, userData\nreceiver, amount, fee, r, s, v)
+MRC20->MPCBroadcaster: OK
