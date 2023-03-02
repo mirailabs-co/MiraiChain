@@ -1,0 +1,12 @@
+Title: Approve MRC20 token in from MiraiChain
+participant User
+participant Relayer
+participant MRC20
+participant MiraiChainValidator
+User->Relayer: approve(token, spender, \nvalue, r, s, v)
+Relayer->Relayer: validate: quota/address, \nquota/token
+Relayer->User: OK, txid
+Relayer->MRC20: approveWithPermit(spender, value, \nr, s, v)\n(Pay PGX for fee)
+MRC20->Relayer: OK
+MRC20-->MiraiChainValidator: Collect PGX by fee \n(type = 0, not burn)
+MiraiChainValidator-->Relayer: PGX

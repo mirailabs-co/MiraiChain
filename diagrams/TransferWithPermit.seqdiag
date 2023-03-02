@@ -1,4 +1,4 @@
-Title: Withdraw from MiraiChain
+Title: Withdraw MRC20 token in MiraiChain
 participant User
 participant Relayer
 participant MRC20
