@@ -7,7 +7,7 @@ participant MPCPool
 participant MPCNode
 participant MPCBroadcaster
 participant MiraiCrossChainRouter
-User->MiraiChainRouter: withdraw(chainId, \nreceiver, amount, fee)
+User->MiraiChainRouter: withdraw(chainId, token,\nreceiver, amount, fee)
 MiraiChainRouter->MRC20: burn(amount)
 MiraiChainRouter->MiraiScanner: onWithdraw{chainId, token \nreceiver, amount, fee}
 MiraiScanner->MPCPool: addWithdrawTx(chainId, txid, token, \nreceiver, amount, fee)
