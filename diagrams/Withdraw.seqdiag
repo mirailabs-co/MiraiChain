@@ -1,17 +1,18 @@
 Title: Withdraw MRC20 token from MiraiChain
 participant User
+participant MiraiChainRouter
 participant MRC20
 participant MiraiScanner
 participant MPCPool
 participant MPCNode
 participant MPCBroadcaster
-participant MiraiChainRouter
-User->MRC20: withdraw(chainId, \nreceiver, amount, fee)
-MRC20->MRC20: burn(amount)
-MRC20->MiraiScanner: onWithdraw{chainId, token \nreceiver, amount, fee}
+participant MiraiCrossChainRouter
+User->MiraiChainRouter: withdraw(chainId, \nreceiver, amount, fee)
+MiraiChainRouter->MRC20: burn(amount)
+MiraiChainRouter->MiraiScanner: onWithdraw{chainId, token \nreceiver, amount, fee}
 MiraiScanner->MPCPool: addWithdrawTx(chainId, txid, token, \nreceiver, amount, fee)
 MPCPool->MPCNode: onWithdrawTx{chainId, txid, token, \nreceiver, amount, fee}
 MPCNode->MPCNode: verifyTx(chainId, txid, token, \nreceiver, amount, fee)
 MPCNode->MPCPool: addSignature(chainId, txid, token,\nreceiver, amount, fee, signature)
 MPCPool->MPCBroadcaster: onSignedTx{chainId, txid, token,\nreceiver, amount, fee, signature}
-MPCBroadcaster->MiraiChainRouter: redem(chainId, txid, token\nreceiver, amount, fee, r, s, v)
+MPCBroadcaster->MiraiCrossChainRouter: redem(chainId, txid, token\nreceiver, amount, fee, r, s, v)
