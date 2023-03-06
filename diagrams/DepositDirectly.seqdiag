@@ -17,4 +17,4 @@ MPCNode->MPCPool: addSignature(chainId, txid, \nreceiver, amount, fee=0, signatu
 MPCPool->MPCNode: OK
 MPCPool->MPCBroadcaster: onSignedTx{chainId, txid, userData=null\nreceiver, amount, fee=0, signature}
 MPCBroadcaster->MRC20: mint(chainId, txid, userData=null\nreceiver, amount, fee=0, r, s, v)
-MRC200->MPCBroadcaster: OK
+MRC20->MPCBroadcaster: OK
