@@ -1,0 +1,23 @@
+Title: Deposit App to MiraiChain By MiraiChainRouter
+participant User
+participant MiraiChainRouter
+participant MiraiScanner
+participant MPCPool
+participant MPCNode
+participant MPCBroadcaster
+participant MiraiChainRouter Main
+participant MRC20
+User->MiraiChainRouter: depositApp(currency, amount,\nreceiver)
+MiraiChainRouter->User: OK
+MiraiChainRouter->MiraiScanner: onDepositedApp{currency, amount,\nreceiver}
+MiraiScanner->MPCPool: addDepositAppDirectlyTx{chainId, txid, \nreceiver, amount, fee=0}
+MPCPool->MiraiScanner: OK
+MPCPool->MPCNode: onDepositAppDirectlyTx{chainId, txid, \nreceiver, amount, fee=0}
+MPCNode->MPCNode: verifyDepositAppDirectlyTx(chainId, txid, \nreceiver, amount, fee=0)
+MPCNode->MPCPool: addSignature(chainId, txid, \nreceiver, amount, fee=0, signature)
+MPCPool->MPCNode: OK
+MPCPool->MPCBroadcaster: onSignedTx{chainId, txid, userData=null\nreceiver, amount, fee=0, signature}
+MPCBroadcaster->MiraiChainRouter Main: depositApp(chainId, txid, userData=null\nreceiver, amount, fee, r, s, v)
+MiraiChainRouter Main->MRC20: mint(MiraiChainRouter Main, amount, r,s,)
+MRC20->MiraiChainRouter Main: OK
+MiraiChainRouter Main->MPCBroadcaster: OK
