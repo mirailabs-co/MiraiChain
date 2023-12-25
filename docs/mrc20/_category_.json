@@ -1,0 +1,8 @@
+{
+    "label": "MRC20",
+    "position": 2,
+    "link": {
+        "type": "generated-index",
+        "description": "An update of ERC20 on Mirai Chain."
+    }
+}

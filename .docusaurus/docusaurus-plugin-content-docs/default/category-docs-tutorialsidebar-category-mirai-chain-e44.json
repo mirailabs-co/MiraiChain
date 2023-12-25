@@ -1,0 +1,12 @@
+{
+  "title": "Mirai Chain",
+  "description": "Overview about Mirai Chain: ChainID, RPC URLs, ....",
+  "slug": "/category/mirai-chain",
+  "permalink": "/docs/category/mirai-chain",
+  "navigation": {
+    "next": {
+      "title": "Overview",
+      "permalink": "/docs/miraichain/intro"
+    }
+  }
+}

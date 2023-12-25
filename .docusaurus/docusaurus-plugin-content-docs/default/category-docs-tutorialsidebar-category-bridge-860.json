@@ -1,0 +1,16 @@
+{
+  "title": "Bridge",
+  "description": "Deposit and withdraw assets with Mirai Chain.",
+  "slug": "/category/bridge",
+  "permalink": "/docs/category/bridge",
+  "navigation": {
+    "previous": {
+      "title": "Example",
+      "permalink": "/docs/mrc20/example"
+    },
+    "next": {
+      "title": "Bridge Flows",
+      "permalink": "/docs/bridge/flow"
+    }
+  }
+}

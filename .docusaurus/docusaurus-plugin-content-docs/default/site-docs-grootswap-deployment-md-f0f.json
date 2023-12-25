@@ -1,0 +1,27 @@
+{
+  "unversionedId": "grootswap/deployment",
+  "id": "grootswap/deployment",
+  "title": "Deployment",
+  "description": "Below is a list of all GrootSwap related contracts deployed.",
+  "source": "@site/docs/grootswap/deployment.md",
+  "sourceDirName": "grootswap",
+  "slug": "/grootswap/deployment",
+  "permalink": "/docs/grootswap/deployment",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/grootswap/deployment.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "🌱 Welcome to GrootSwap! 🌱",
+    "permalink": "/docs/grootswap/introduction"
+  },
+  "next": {
+    "title": "Liquidity Pool",
+    "permalink": "/docs/grootswap/add-lp"
+  }
+}

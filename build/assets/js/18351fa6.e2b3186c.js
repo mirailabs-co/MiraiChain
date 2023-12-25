@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[522],{92:i=>{i.exports=JSON.parse('{"title":"Mirai Chain","description":"Overview about Mirai Chain: ChainID, RPC URLs, ....","slug":"/category/mirai-chain","permalink":"/docs/category/mirai-chain","navigation":{"next":{"title":"Overview","permalink":"/docs/miraichain/intro"}}}')}}]);

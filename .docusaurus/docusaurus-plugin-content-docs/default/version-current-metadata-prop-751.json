@@ -1,0 +1,181 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "category",
+        "label": "Mirai Chain",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Overview",
+            "href": "/docs/miraichain/intro",
+            "docId": "miraichain/intro"
+          },
+          {
+            "type": "link",
+            "label": "Testnet Faucet",
+            "href": "/docs/miraichain/faucet",
+            "docId": "miraichain/faucet"
+          }
+        ],
+        "href": "/docs/category/mirai-chain"
+      },
+      {
+        "type": "category",
+        "label": "MRC20",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Token Stardard",
+            "href": "/docs/mrc20/",
+            "docId": "mrc20/mrc20"
+          },
+          {
+            "type": "link",
+            "label": "Example",
+            "href": "/docs/mrc20/example",
+            "docId": "mrc20/example"
+          }
+        ],
+        "href": "/docs/category/mrc20"
+      },
+      {
+        "type": "category",
+        "label": "Bridge",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Bridge Flows",
+            "href": "/docs/bridge/flow",
+            "docId": "bridge/flow"
+          },
+          {
+            "type": "link",
+            "label": "Token Mapper",
+            "href": "/docs/bridge/mapper",
+            "docId": "bridge/mapper"
+          }
+        ],
+        "href": "/docs/category/bridge"
+      },
+      {
+        "type": "category",
+        "label": "Gas-free",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Introduction",
+            "href": "/docs/gas-free/introduction",
+            "docId": "gas-free/introduction"
+          }
+        ],
+        "href": "/docs/category/gas-free"
+      },
+      {
+        "type": "category",
+        "label": "GrootSwap",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "🌱 Welcome to GrootSwap! 🌱",
+            "href": "/docs/grootswap/introduction",
+            "docId": "grootswap/introduction"
+          },
+          {
+            "type": "link",
+            "label": "Deployment",
+            "href": "/docs/grootswap/deployment",
+            "docId": "grootswap/deployment"
+          },
+          {
+            "type": "link",
+            "label": "Liquidity Pool",
+            "href": "/docs/grootswap/add-lp",
+            "docId": "grootswap/add-lp"
+          }
+        ],
+        "href": "/docs/category/grootswap"
+      }
+    ]
+  },
+  "docs": {
+    "bridge/flow": {
+      "id": "bridge/flow",
+      "title": "Bridge Flows",
+      "description": "Deposit and withdraw flows with Mirai Chain",
+      "sidebar": "tutorialSidebar"
+    },
+    "bridge/mapper": {
+      "id": "bridge/mapper",
+      "title": "Token Mapper",
+      "description": "To transfer funds between Mirai Chain and other chains (Ethereum, Avalanche C-Chain, Polygon, ...), a connection between the contract addresses used for minting or burning tokens must be established. This link is recorded in a certain repository (contract) so that the blockchain knows which token is being transferred from one Network to another.",
+      "sidebar": "tutorialSidebar"
+    },
+    "gas-free/introduction": {
+      "id": "gas-free/introduction",
+      "title": "Introduction",
+      "description": "Mirai Chain offer gas-free support for normal users and partner's smart contracts",
+      "sidebar": "tutorialSidebar"
+    },
+    "grootswap/add-lp": {
+      "id": "grootswap/add-lp",
+      "title": "Liquidity Pool",
+      "description": "Adding liquidity to a pool on GrootSwap is not just about participating in the DeFi ecosystem; it's also an opportunity to earn a share of the trading fees. In this guide, we'll walk you through the simple steps to get started.",
+      "sidebar": "tutorialSidebar"
+    },
+    "grootswap/deployment": {
+      "id": "grootswap/deployment",
+      "title": "Deployment",
+      "description": "Below is a list of all GrootSwap related contracts deployed.",
+      "sidebar": "tutorialSidebar"
+    },
+    "grootswap/introduction": {
+      "id": "grootswap/introduction",
+      "title": "🌱 Welcome to GrootSwap! 🌱",
+      "description": "In the ever-evolving world of decentralized finance (DeFi), we're thrilled to introduce GrootSwap, a cutting-edge decentralized exchange (DEX) that draws inspiration from the pioneering Uniswap V2. At GrootSwap, our mission is to offer an intuitive, efficient, and secure platform for cryptocurrency trading, providing a seamless experience for both novice and seasoned traders.",
+      "sidebar": "tutorialSidebar"
+    },
+    "miraichain/faucet": {
+      "id": "miraichain/faucet",
+      "title": "Testnet Faucet",
+      "description": "-   Available at https://faucet.miraichain.io/.",
+      "sidebar": "tutorialSidebar"
+    },
+    "miraichain/intro": {
+      "id": "miraichain/intro",
+      "title": "Overview",
+      "description": "Mirai Chain is an EVM-compatible platform, enabling developers to deploy decentralized applications and smart contracts efficiently, utilizing the robustness of the Ethereum ecosystem.",
+      "sidebar": "tutorialSidebar"
+    },
+    "mrc20/example": {
+      "id": "mrc20/example",
+      "title": "Example",
+      "description": "MRC20Upgradeable.sol",
+      "sidebar": "tutorialSidebar"
+    },
+    "mrc20/mrc20": {
+      "id": "mrc20/mrc20",
+      "title": "Token Stardard",
+      "description": "MRC20 is a token standard on Mirai Chain. It is an extension of the Ethereum ERC-20 token standard, and it defines a set of rules that all MRC20 tokens must follow. These rules include how tokens can be transferred, paid, burned, and minted. It is designed to enable developers to create and deploy tokens on Mirai Chain.",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

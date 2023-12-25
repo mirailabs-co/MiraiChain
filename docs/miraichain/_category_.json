@@ -1,0 +1,8 @@
+{
+    "label": "Mirai Chain",
+    "position": 1,
+    "link": {
+        "type": "generated-index",
+        "description": "Overview about Mirai Chain: ChainID, RPC URLs, ...."
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "mrc20/example",
+  "id": "mrc20/example",
+  "title": "Example",
+  "description": "MRC20Upgradeable.sol",
+  "source": "@site/docs/mrc20/example.md",
+  "sourceDirName": "mrc20",
+  "slug": "/mrc20/example",
+  "permalink": "/docs/mrc20/example",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/mrc20/example.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Token Stardard",
+    "permalink": "/docs/mrc20/"
+  },
+  "next": {
+    "title": "Bridge",
+    "permalink": "/docs/category/bridge"
+  }
+}

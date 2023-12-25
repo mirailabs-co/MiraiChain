@@ -1,0 +1,83 @@
+{
+  "/markdown-page-1bc": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "8865a634"
+    },
+    "content": "393be207"
+  },
+  "/docs-051": {
+    "__comp": "1be78505",
+    "__context": {
+      "plugin": "7861c543"
+    },
+    "versionMetadata": "935f2afb"
+  },
+  "/docs/bridge/flow-257": {
+    "__comp": "17896441",
+    "content": "b18adc9b"
+  },
+  "/docs/bridge/mapper-60f": {
+    "__comp": "17896441",
+    "content": "a75bc08e"
+  },
+  "/docs/category/bridge-815": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "11e8799e"
+  },
+  "/docs/category/gas-free-ab4": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "efce4219"
+  },
+  "/docs/category/grootswap-af9": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "3556da39"
+  },
+  "/docs/category/mirai-chain-748": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "18351fa6"
+  },
+  "/docs/category/mrc20-5cb": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "0d38e13c"
+  },
+  "/docs/gas-free/introduction-9cd": {
+    "__comp": "17896441",
+    "content": "52f322b0"
+  },
+  "/docs/grootswap/add-lp-b1a": {
+    "__comp": "17896441",
+    "content": "368ed66d"
+  },
+  "/docs/grootswap/deployment-ae4": {
+    "__comp": "17896441",
+    "content": "f0fd5131"
+  },
+  "/docs/grootswap/introduction-826": {
+    "__comp": "17896441",
+    "content": "45746c86"
+  },
+  "/docs/miraichain/faucet-dc5": {
+    "__comp": "17896441",
+    "content": "7b6d388f"
+  },
+  "/docs/miraichain/intro-7cf": {
+    "__comp": "17896441",
+    "content": "26b40397"
+  },
+  "/docs/mrc20/-013": {
+    "__comp": "17896441",
+    "content": "0b6f01ea"
+  },
+  "/docs/mrc20/example-908": {
+    "__comp": "17896441",
+    "content": "042f6edc"
+  },
+  "/-b9c": {
+    "__comp": "1df93b7f",
+    "__context": {
+      "plugin": "8865a634"
+    },
+    "config": "5e9f5e1a"
+  }
+}

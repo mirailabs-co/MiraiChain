@@ -1,0 +1,27 @@
+{
+  "unversionedId": "bridge/mapper",
+  "id": "bridge/mapper",
+  "title": "Token Mapper",
+  "description": "To transfer funds between Mirai Chain and other chains (Ethereum, Avalanche C-Chain, Polygon, ...), a connection between the contract addresses used for minting or burning tokens must be established. This link is recorded in a certain repository (contract) so that the blockchain knows which token is being transferred from one Network to another.",
+  "source": "@site/docs/bridge/mapper.md",
+  "sourceDirName": "bridge",
+  "slug": "/bridge/mapper",
+  "permalink": "/docs/bridge/mapper",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/bridge/mapper.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Bridge Flows",
+    "permalink": "/docs/bridge/flow"
+  },
+  "next": {
+    "title": "Gas-free",
+    "permalink": "/docs/category/gas-free"
+  }
+}

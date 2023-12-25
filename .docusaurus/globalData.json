@@ -1,0 +1,103 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "miraichain/intro",
+          "docs": [
+            {
+              "id": "bridge/flow",
+              "path": "/docs/bridge/flow",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "bridge/mapper",
+              "path": "/docs/bridge/mapper",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "gas-free/introduction",
+              "path": "/docs/gas-free/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "grootswap/add-lp",
+              "path": "/docs/grootswap/add-lp",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "grootswap/deployment",
+              "path": "/docs/grootswap/deployment",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "grootswap/introduction",
+              "path": "/docs/grootswap/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "miraichain/faucet",
+              "path": "/docs/miraichain/faucet",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "miraichain/intro",
+              "path": "/docs/miraichain/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "mrc20/example",
+              "path": "/docs/mrc20/example",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "mrc20/mrc20",
+              "path": "/docs/mrc20/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/mirai-chain",
+              "path": "/docs/category/mirai-chain",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/mrc20",
+              "path": "/docs/category/mrc20",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/bridge",
+              "path": "/docs/category/bridge",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/gas-free",
+              "path": "/docs/category/gas-free",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/grootswap",
+              "path": "/docs/category/grootswap",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/category/mirai-chain",
+                "label": "Mirai Chain"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "grootswap/introduction",
+  "id": "grootswap/introduction",
+  "title": "🌱 Welcome to GrootSwap! 🌱",
+  "description": "In the ever-evolving world of decentralized finance (DeFi), we're thrilled to introduce GrootSwap, a cutting-edge decentralized exchange (DEX) that draws inspiration from the pioneering Uniswap V2. At GrootSwap, our mission is to offer an intuitive, efficient, and secure platform for cryptocurrency trading, providing a seamless experience for both novice and seasoned traders.",
+  "source": "@site/docs/grootswap/introduction.md",
+  "sourceDirName": "grootswap",
+  "slug": "/grootswap/introduction",
+  "permalink": "/docs/grootswap/introduction",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/grootswap/introduction.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "GrootSwap",
+    "permalink": "/docs/category/grootswap"
+  },
+  "next": {
+    "title": "Deployment",
+    "permalink": "/docs/grootswap/deployment"
+  }
+}

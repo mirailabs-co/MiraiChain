@@ -1,0 +1,8 @@
+{
+    "label": "Bridge",
+    "position": 4,
+    "link": {
+        "type": "generated-index",
+        "description": "Deposit and withdraw assets with Mirai Chain."
+    }
+}

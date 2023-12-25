@@ -1,0 +1,16 @@
+{
+  "title": "MRC20",
+  "description": "An update of ERC20 on Mirai Chain.",
+  "slug": "/category/mrc20",
+  "permalink": "/docs/category/mrc20",
+  "navigation": {
+    "previous": {
+      "title": "Testnet Faucet",
+      "permalink": "/docs/miraichain/faucet"
+    },
+    "next": {
+      "title": "Token Stardard",
+      "permalink": "/docs/mrc20/"
+    }
+  }
+}

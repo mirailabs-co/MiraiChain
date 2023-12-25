@@ -1,0 +1,16 @@
+{
+  "title": "GrootSwap",
+  "description": "DEX on Mirai Chain.",
+  "slug": "/category/grootswap",
+  "permalink": "/docs/category/grootswap",
+  "navigation": {
+    "previous": {
+      "title": "Introduction",
+      "permalink": "/docs/gas-free/introduction"
+    },
+    "next": {
+      "title": "🌱 Welcome to GrootSwap! 🌱",
+      "permalink": "/docs/grootswap/introduction"
+    }
+  }
+}

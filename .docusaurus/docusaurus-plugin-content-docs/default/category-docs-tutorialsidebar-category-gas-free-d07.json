@@ -1,0 +1,16 @@
+{
+  "title": "Gas-free",
+  "description": "Support your users with gas-free on Mirai Chain.",
+  "slug": "/category/gas-free",
+  "permalink": "/docs/category/gas-free",
+  "navigation": {
+    "previous": {
+      "title": "Token Mapper",
+      "permalink": "/docs/bridge/mapper"
+    },
+    "next": {
+      "title": "Introduction",
+      "permalink": "/docs/gas-free/introduction"
+    }
+  }
+}

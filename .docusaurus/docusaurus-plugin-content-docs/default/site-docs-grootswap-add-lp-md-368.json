@@ -1,0 +1,23 @@
+{
+  "unversionedId": "grootswap/add-lp",
+  "id": "grootswap/add-lp",
+  "title": "Liquidity Pool",
+  "description": "Adding liquidity to a pool on GrootSwap is not just about participating in the DeFi ecosystem; it's also an opportunity to earn a share of the trading fees. In this guide, we'll walk you through the simple steps to get started.",
+  "source": "@site/docs/grootswap/add-lp.md",
+  "sourceDirName": "grootswap",
+  "slug": "/grootswap/add-lp",
+  "permalink": "/docs/grootswap/add-lp",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/grootswap/add-lp.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deployment",
+    "permalink": "/docs/grootswap/deployment"
+  }
+}

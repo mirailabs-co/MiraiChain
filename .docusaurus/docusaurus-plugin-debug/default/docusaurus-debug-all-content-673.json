@@ -1,0 +1,442 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
+          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
+          "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/runaway518/MiraiChain/docs/sidebars.js",
+          "contentPath": "/Users/runaway518/MiraiChain/docs/docs",
+          "contentPathLocalized": "/Users/runaway518/MiraiChain/docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "unversionedId": "bridge/flow",
+              "id": "bridge/flow",
+              "title": "Bridge Flows",
+              "description": "Deposit and withdraw flows with Mirai Chain",
+              "source": "@site/docs/bridge/flow.md",
+              "sourceDirName": "bridge",
+              "slug": "/bridge/flow",
+              "permalink": "/docs/bridge/flow",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/bridge/flow.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Bridge",
+                "permalink": "/docs/category/bridge"
+              },
+              "next": {
+                "title": "Token Mapper",
+                "permalink": "/docs/bridge/mapper"
+              }
+            },
+            {
+              "unversionedId": "bridge/mapper",
+              "id": "bridge/mapper",
+              "title": "Token Mapper",
+              "description": "To transfer funds between Mirai Chain and other chains (Ethereum, Avalanche C-Chain, Polygon, ...), a connection between the contract addresses used for minting or burning tokens must be established. This link is recorded in a certain repository (contract) so that the blockchain knows which token is being transferred from one Network to another.",
+              "source": "@site/docs/bridge/mapper.md",
+              "sourceDirName": "bridge",
+              "slug": "/bridge/mapper",
+              "permalink": "/docs/bridge/mapper",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/bridge/mapper.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Bridge Flows",
+                "permalink": "/docs/bridge/flow"
+              },
+              "next": {
+                "title": "Gas-free",
+                "permalink": "/docs/category/gas-free"
+              }
+            },
+            {
+              "unversionedId": "gas-free/introduction",
+              "id": "gas-free/introduction",
+              "title": "Introduction",
+              "description": "Mirai Chain offer gas-free support for normal users and partner's smart contracts",
+              "source": "@site/docs/gas-free/introduction.md",
+              "sourceDirName": "gas-free",
+              "slug": "/gas-free/introduction",
+              "permalink": "/docs/gas-free/introduction",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/gas-free/introduction.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Gas-free",
+                "permalink": "/docs/category/gas-free"
+              },
+              "next": {
+                "title": "GrootSwap",
+                "permalink": "/docs/category/grootswap"
+              }
+            },
+            {
+              "unversionedId": "grootswap/add-lp",
+              "id": "grootswap/add-lp",
+              "title": "Liquidity Pool",
+              "description": "Adding liquidity to a pool on GrootSwap is not just about participating in the DeFi ecosystem; it's also an opportunity to earn a share of the trading fees. In this guide, we'll walk you through the simple steps to get started.",
+              "source": "@site/docs/grootswap/add-lp.md",
+              "sourceDirName": "grootswap",
+              "slug": "/grootswap/add-lp",
+              "permalink": "/docs/grootswap/add-lp",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/grootswap/add-lp.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Deployment",
+                "permalink": "/docs/grootswap/deployment"
+              }
+            },
+            {
+              "unversionedId": "grootswap/deployment",
+              "id": "grootswap/deployment",
+              "title": "Deployment",
+              "description": "Below is a list of all GrootSwap related contracts deployed.",
+              "source": "@site/docs/grootswap/deployment.md",
+              "sourceDirName": "grootswap",
+              "slug": "/grootswap/deployment",
+              "permalink": "/docs/grootswap/deployment",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/grootswap/deployment.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "🌱 Welcome to GrootSwap! 🌱",
+                "permalink": "/docs/grootswap/introduction"
+              },
+              "next": {
+                "title": "Liquidity Pool",
+                "permalink": "/docs/grootswap/add-lp"
+              }
+            },
+            {
+              "unversionedId": "grootswap/introduction",
+              "id": "grootswap/introduction",
+              "title": "🌱 Welcome to GrootSwap! 🌱",
+              "description": "In the ever-evolving world of decentralized finance (DeFi), we're thrilled to introduce GrootSwap, a cutting-edge decentralized exchange (DEX) that draws inspiration from the pioneering Uniswap V2. At GrootSwap, our mission is to offer an intuitive, efficient, and secure platform for cryptocurrency trading, providing a seamless experience for both novice and seasoned traders.",
+              "source": "@site/docs/grootswap/introduction.md",
+              "sourceDirName": "grootswap",
+              "slug": "/grootswap/introduction",
+              "permalink": "/docs/grootswap/introduction",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/grootswap/introduction.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "GrootSwap",
+                "permalink": "/docs/category/grootswap"
+              },
+              "next": {
+                "title": "Deployment",
+                "permalink": "/docs/grootswap/deployment"
+              }
+            },
+            {
+              "unversionedId": "miraichain/faucet",
+              "id": "miraichain/faucet",
+              "title": "Testnet Faucet",
+              "description": "-   Available at https://faucet.miraichain.io/.",
+              "source": "@site/docs/miraichain/faucet.md",
+              "sourceDirName": "miraichain",
+              "slug": "/miraichain/faucet",
+              "permalink": "/docs/miraichain/faucet",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/miraichain/faucet.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Overview",
+                "permalink": "/docs/miraichain/intro"
+              },
+              "next": {
+                "title": "MRC20",
+                "permalink": "/docs/category/mrc20"
+              }
+            },
+            {
+              "unversionedId": "miraichain/intro",
+              "id": "miraichain/intro",
+              "title": "Overview",
+              "description": "Mirai Chain is an EVM-compatible platform, enabling developers to deploy decentralized applications and smart contracts efficiently, utilizing the robustness of the Ethereum ecosystem.",
+              "source": "@site/docs/miraichain/intro.md",
+              "sourceDirName": "miraichain",
+              "slug": "/miraichain/intro",
+              "permalink": "/docs/miraichain/intro",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/miraichain/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Mirai Chain",
+                "permalink": "/docs/category/mirai-chain"
+              },
+              "next": {
+                "title": "Testnet Faucet",
+                "permalink": "/docs/miraichain/faucet"
+              }
+            },
+            {
+              "unversionedId": "mrc20/example",
+              "id": "mrc20/example",
+              "title": "Example",
+              "description": "MRC20Upgradeable.sol",
+              "source": "@site/docs/mrc20/example.md",
+              "sourceDirName": "mrc20",
+              "slug": "/mrc20/example",
+              "permalink": "/docs/mrc20/example",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/mrc20/example.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Token Stardard",
+                "permalink": "/docs/mrc20/"
+              },
+              "next": {
+                "title": "Bridge",
+                "permalink": "/docs/category/bridge"
+              }
+            },
+            {
+              "unversionedId": "mrc20/mrc20",
+              "id": "mrc20/mrc20",
+              "title": "Token Stardard",
+              "description": "MRC20 is a token standard on Mirai Chain. It is an extension of the Ethereum ERC-20 token standard, and it defines a set of rules that all MRC20 tokens must follow. These rules include how tokens can be transferred, paid, burned, and minted. It is designed to enable developers to create and deploy tokens on Mirai Chain.",
+              "source": "@site/docs/mrc20/mrc20.md",
+              "sourceDirName": "mrc20",
+              "slug": "/mrc20/",
+              "permalink": "/docs/mrc20/",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/mrc20/mrc20.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "MRC20",
+                "permalink": "/docs/category/mrc20"
+              },
+              "next": {
+                "title": "Example",
+                "permalink": "/docs/mrc20/example"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "category",
+                "label": "Mirai Chain",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "miraichain/intro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "miraichain/faucet"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Overview about Mirai Chain: ChainID, RPC URLs, ....",
+                  "slug": "/category/mirai-chain",
+                  "permalink": "/docs/category/mirai-chain"
+                }
+              },
+              {
+                "type": "category",
+                "label": "MRC20",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "mrc20/mrc20"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "mrc20/example"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "An update of ERC20 on Mirai Chain.",
+                  "slug": "/category/mrc20",
+                  "permalink": "/docs/category/mrc20"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Bridge",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "bridge/flow"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "bridge/mapper"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Deposit and withdraw assets with Mirai Chain.",
+                  "slug": "/category/bridge",
+                  "permalink": "/docs/category/bridge"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Gas-free",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "gas-free/introduction"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Support your users with gas-free on Mirai Chain.",
+                  "slug": "/category/gas-free",
+                  "permalink": "/docs/category/gas-free"
+                }
+              },
+              {
+                "type": "category",
+                "label": "GrootSwap",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "grootswap/introduction"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "grootswap/deployment"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "grootswap/add-lp"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "DEX on Mirai Chain.",
+                  "slug": "/category/grootswap",
+                  "permalink": "/docs/category/grootswap"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [],
+      "blogListPaginated": [],
+      "blogTags": {},
+      "blogTagsListPath": "/blog/tags",
+      "blogTagsPaginated": []
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.tsx"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        }
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-theme-mermaid": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}
